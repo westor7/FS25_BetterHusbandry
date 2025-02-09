@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+	<translationContributors>Google translate</translationContributors>
+	<texts>
+		<text name = "bh_setting_title" 				text = "Bessere Tierhaltung - Einstellungen"/>
+
+		<text name = "bh_eggsMultiplier_short" 			text = "Eier Produzieren Multiplikator"/>
+		<text name = "bh_eggsMultiplier_long" 			text = "Wählen Sie Ihre Multiplikatorzahl. Eine höhere Zahl bringt mehr Eier pro Tier und Spielstunde, setzen sie '0' um den Mod zu deaktivieren.&#13;&#10;(HINWEIS: Sie müssen Ihr gespeichertes Spiel neu starten, damit die Änderung übernommen wird)."/>
+
+		<text name = "bh_woolMultiplier_short" 			text = "Woll Produzieren Multiplikator"/>
+		<text name = "bh_woolMultiplier_long" 			text = "Wählen Sie Ihre Multiplikatorzahl. Eine höhere Zahl bringt mehr Woll pro Tier und Spielstunde, setzen sie '0' um den Mod zu deaktivieren.&#13;&#10;(HINWEIS: Sie müssen Ihr gespeichertes Spiel neu starten, damit die Änderung übernommen wird)."/>
+
+		<text name = "bh_milkMultiplier_short" 			text = "Milch Produzieren Multiplikator"/>
+		<text name = "bh_milkMultiplier_long" 			text = "Wählen Sie Ihre Multiplikatorzahl. Eine höhere Zahl bringt mehr Milch pro Tier und Spielstunde, setzen sie '0' um den Mod zu deaktivieren.&#13;&#10;(HINWEIS: Sie müssen Ihr gespeichertes Spiel neu starten, damit die Änderung übernommen wird)."/>
+
+		<text name = "bh_manureMultiplier_short" 		text = "Düngen Produzieren Multiplikator"/>
+		<text name = "bh_manureMultiplier_long" 		text = "Wählen Sie Ihre Multiplikatorzahl. Eine höhere Zahl bringt mehr Düngen pro Tier und Spielstunde, setzen sie '0' um den Mod zu deaktivieren.&#13;&#10;(HINWEIS: Sie müssen Ihr gespeichertes Spiel neu starten, damit die Änderung übernommen wird)."/>
+
+		<text name = "bh_slurryMultiplier_short" 		text = "Gülle Produzieren Multiplikator"/>
+		<text name = "bh_slurryMultiplier_long" 		text = "Wählen Sie Ihre Multiplikatorzahl. Eine höhere Zahl bringt mehr Gülle pro Tier und Spielstunde, setzen sie '0' um den Mod zu deaktivieren.&#13;&#10;(HINWEIS: Sie müssen Ihr gespeichertes Spiel neu starten, damit die Änderung übernommen wird)."/>
+
+		<text name = "bh_blink_warn"					text = "Warnung: Der Produktionsmultiplikator einiger Tiere wurde aktualisiert.&#13;&#10;&#13;&#10;&#32;&#32;::: Sie müssen Ihr Savegame neu starten, um die Änderungen zu übernehmen.. :::"/>
+	</texts>
+</l10n>

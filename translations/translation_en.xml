@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+	<translationContributors/>
+	<texts>
+		<text name = "bh_setting_title" 				text = "Better Husbandry - Settings"/>
+
+		<text name = "bh_eggsMultiplier_short" 			text = "Eggs Produce Multiplier"/>
+		<text name = "bh_eggsMultiplier_long" 			text = "Select your multiplier number, higher number gets more eggs per animal per game hour, set '0' to disable the mod.&#13;&#10;(NOTE: You need to restart your savegame to apply after any change)."/>
+
+		<text name = "bh_woolMultiplier_short" 			text = "Wool Produce Multiplier"/>
+		<text name = "bh_woolMultiplier_long" 			text = "Select your multiplier number, higher number gets more wool per animal per game hour, set '0' to disable the mod.&#13;&#10;(NOTE: You need to restart your savegame to apply after any change)."/>
+
+		<text name = "bh_milkMultiplier_short" 			text = "Milk Produce Multiplier"/>
+		<text name = "bh_milkMultiplier_long" 			text = "Select your multiplier number, higher number gets more milk per animal per game hour, set '0' to disable the mod.&#13;&#10;(NOTE: You need to restart your savegame to apply after any change)."/>
+
+		<text name = "bh_manureMultiplier_short" 		text = "Manure Produce Multiplier"/>
+		<text name = "bh_manureMultiplier_long" 		text = "Select your multiplier number, higher number gets more manure per animal per game hour, set '0' to disable the mod.&#13;&#10;(NOTE: You need to restart your savegame to apply after any change)."/>
+
+		<text name = "bh_slurryMultiplier_short" 		text = "Slurry Produce Multiplier"/>
+		<text name = "bh_slurryMultiplier_long" 		text = "Select your multiplier number, higher number gets more slurry per animal per game hour, set '0' to disable the mod.&#13;&#10;(NOTE: You need to restart your savegame to apply after any change)."/>
+
+		<text name = "bh_blink_warn"					text = "Warning: Some animal(s) production multiplier has been updated.&#13;&#10;&#13;&#10;&#32;&#32;::: You must restart your savegame to apply the changes.. :::"/>
+	</texts>
+</l10n>

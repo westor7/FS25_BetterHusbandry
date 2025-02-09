@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+	<translationContributors>Google translate</translationContributors>
+	<texts>
+		<text name = "bh_setting_title" 				text = "Une Meilleure Gestion - Paramètres"/>
+
+		<text name = "bh_eggsMultiplier_short" 			text = "Oeufs Multiplicateur De Production"/>
+		<text name = "bh_eggsMultiplier_long" 			text = "Sélectionnez votre numéro multiplicateur, un nombre plus élevé obtient plus Oeufs par animal et par heure de jeu, définissez '0' pour désactiver le mod.&#13;&#10;(REMARQUE: vous devez redémarrer votre sauvegarde pour appliquer toute modification)."/>
+
+		<text name = "bh_woolMultiplier_short" 			text = "Laine Multiplicateur De Production"/>
+		<text name = "bh_woolMultiplier_long" 			text = "Sélectionnez votre numéro multiplicateur, un nombre plus élevé obtient plus Laine par animal et par heure de jeu, définissez '0' pour désactiver le mod.&#13;&#10;(REMARQUE: vous devez redémarrer votre sauvegarde pour appliquer toute modification)."/>
+
+		<text name = "bh_milkMultiplier_short" 			text = "Lait Multiplicateur De Production"/>
+		<text name = "bh_milkMultiplier_long" 			text = "Sélectionnez votre numéro multiplicateur, un nombre plus élevé obtient plus Lait par animal et par heure de jeu, définissez '0' pour désactiver le mod.&#13;&#10;(REMARQUE: vous devez redémarrer votre sauvegarde pour appliquer toute modification)."/>
+
+		<text name = "bh_manureMultiplier_short" 		text = "Fumier Multiplicateur De Production"/>
+		<text name = "bh_manureMultiplier_long" 		text = "Sélectionnez votre numéro multiplicateur, un nombre plus élevé obtient plus Fumier par animal et par heure de jeu, définissez '0' pour désactiver le mod.&#13;&#10;(REMARQUE: vous devez redémarrer votre sauvegarde pour appliquer toute modification)."/>
+
+		<text name = "bh_slurryMultiplier_short" 		text = "Boue Multiplicateur De Production"/>
+		<text name = "bh_slurryMultiplier_long" 		text = "Sélectionnez votre numéro multiplicateur, un nombre plus élevé obtient plus Boue par animal et par heure de jeu, définissez '0' pour désactiver le mod.&#13;&#10;(REMARQUE: vous devez redémarrer votre sauvegarde pour appliquer toute modification)."/>
+
+		<text name = "bh_blink_warn"					text = "Attention: Certains multiplicateurs de production animale ont été mis à jour.&#13;&#10;&#13;&#10;&#32;&#32;::: Vous devez redémarrer votre sauvegarde pour appliquer les modifications. :::"/>
+	</texts>
+</l10n>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="94">
+	<author>westor</author>
+	<version>1.0.0.0</version>
+	<title>
+		<en>Better Husbandry</en>
+		<de>Bessere Tierhaltung</de>
+		<fr>Une Meilleure Gestion</fr>
+	</title>
+	<description>
+<en>
+<![CDATA[
+Better Husbandry is a mod that increase all your husbandry productions amount every game hour,
+from all your animals now you can get more product instead of the default, like for example
+
+COWS  =>  MILK + BUFFALOMILK + MANURE + SLURRY
+PIGS  =>  SLURRY + MANURE
+GOATS  =>  GOATMILK
+SHEEPS  =>  WOOL
+CHICKENS  =>  EGG
+HORSES  =>  MANURE
+
+A detailed example like if '1' chicken produce '100' eggs per game hour 
+and the multiplier is '2' then that chicken will product '200' eggs.
+
+You can adjust the multiplier under Game Settings (Press ESC button) so you can
+increase or decrease the value in your desire. (default: 2 - min: 0 - max: 100)
+if you want to disable any setting you can set to it to '0' value
+just note that if you change any setting you have to restart your savegame
+in order to apply the changes you made under settings.
+
+westor7 @ Discord or https://github.com/westor7/FS25_BetterHusbandry for any suggestions/problems.
+
+NOTE: This mod does NOT working on multiplayer!
+
+- Specially thanks to @GMNGjoy (https://github.com/GMNGjoy) for helping me create the head code.
+]]>
+</en>
+<de>
+<![CDATA[
+Bessere Tierhaltung ist ein Mod, der die gesamte Produktionsmenge Ihrer Viehzucht pro Spielstunde erhöht.
+Sie können jetzt von all Ihren Tieren mehr Produkte erhalten als die Standardmenge, wie zum Beispiel
+
+KÜHE  =>  MILCH + BÜFFELMILCH + MIST + GÜLLE
+SCHWEINE  =>  GÜLLE + MIST
+ZIEGEN  =>  ZIEGENMILCH
+SCHAFE  =>  WOLLE
+HÜHNER  =>  EIER
+PFERDE  =>  MIST
+
+Ein detailliertes Beispiel: Wenn '1' Huhn '100' Eier pro Spielstunde produziert
+und der Multiplikator '2' ist, dann produziert dieses Huhn '200' Eier.
+
+Sie können den Multiplikator unter den Spieleinstellungen anpassen (drücken Sie die ESC-Taste), sodass Sie
+den Wert nach Wunsch erhöhen oder verringern können. (Standard: 2 – min: 0 – max: 100)
+Wenn Sie eine Einstellung deaktivieren möchten, können Sie sie auf den Wert '0' setzen.
+Beachten Sie jedoch, dass Sie Ihr gespeichertes Spiel neu starten müssen, wenn Sie eine Einstellung ändern,
+um die unter Einstellungen vorgenommenen changes anzuwenden.
+
+westor7 @ Discord oder https://github.com/westor7/FS25_BetterHusbandry für Vorschläge/Probleme.
+
+HINWEIS: Dieser Mod funktioniert NICHT im Mehrspielermodus!
+
+– Besonderer Dank geht an @GMNGjoy (https://github.com/GMNGjoy), der mir beim Erstellen des Hauptcodes geholfen hat.
+]]>
+</de>
+<fr>
+<![CDATA[
+Une Meilleure Gestion est un mod qui augmente toutes les quantités de production de votre élevage à chaque heure de jeu.
+De tous vos animaux, vous pouvez désormais obtenir plus de produits au lieu de la valeur par défaut, comme par exemple
+
+VACHES  =>  LAIT + LAIT DE BUFFLE + FUMIER + LISIER
+PORCS  =>  LISIER + FUMIER
+CHÈVRES  =>  LAIT DE CHÈVRE
+MOUTONS  =>  LAINE
+POULETS  =>  ŒUF
+CHEVAUX  =>  FUMIER
+
+Un exemple détaillé comme si '1' poulet produit '100' œufs par heure de jeu
+et que le multiplicateur est '2' alors ce poulet produira '200' œufs.
+
+Vous pouvez ajuster le multiplicateur dans les paramètres du jeu (appuyez sur le bouton ESC) afin de pouvoir
+augmenter ou diminuer la valeur à votre guise. (par défaut: 2 - min: 0 - max: 100)
+Si vous souhaitez désactiver un paramètre, vous pouvez le définir sur la valeur '0'
+Notez simplement que si vous modifiez un paramètre, vous devez redémarrer votre sauvegarde
+afin d'appliquer les modifications que vous avez apportées dans les paramètres.
+
+westor7 @ Discord ou https://github.com/westor7/FS25_BetterHusbandry pour toute suggestion/problème.
+
+REMARQUE: ce mod ne fonctionne PAS en multijoueur!
+
+- Un merci spécial à @GMNGjoy (https://github.com/GMNGjoy) pour m'avoir aidé à créer le code principal.
+]]>
+</fr>
+	</description>
+
+	<iconFilename>icon_BetterHusbandry.dds</iconFilename>
+	
+	<multiplayer supported="true"/>
+	
+	<l10n filenamePrefix="translations/translation"/>
+	
+	<extraSourceFiles>
+		<sourceFile filename="src/lib/UIHelper.lua" />
+		<sourceFile filename="src/BetterHusbandryUI.lua" />
+		<sourceFile filename="src/BetterHusbandry.lua"/>
+	</extraSourceFiles>
+
+</modDesc>
