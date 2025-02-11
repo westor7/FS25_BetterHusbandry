@@ -6,6 +6,7 @@
 		<en>Better Husbandry</en>
 		<de>Bessere Tierhaltung</de>
 		<fr>Une Meilleure Gestion</fr>
+		<it>Migliore allevamento</it>
 	</title>
 	<description>
 <en>
@@ -66,7 +67,7 @@ HINWEIS: Dieser Mod funktioniert NICHT im Mehrspielermodus!
 </de>
 <fr>
 <![CDATA[
-Une Meilleure Gestion est un mod qui augmente toutes les quantités de production de votre élevage à chaque heure de jeu.
+Migliore allevamento est un mod qui augmente toutes les quantités de production de votre élevage à chaque heure de jeu.
 De tous vos animaux, vous pouvez désormais obtenir plus de produits au lieu de la valeur par défaut, comme par exemple
 
 VACHES  =>  LAIT + LAIT DE BUFFLE + FUMIER + LISIER
@@ -92,6 +93,32 @@ REMARQUE: ce mod ne fonctionne PAS en multijoueur!
 - Un merci spécial à @GMNGjoy (https://github.com/GMNGjoy) pour m'avoir aidé à créer le code principal.
 ]]>
 </fr>
+<it>
+<![CDATA[La Gestione Migliorata del Bestiame è una mod che aumenta la quantità di prodotti di allevamento ogni ora di gioco,
+da tutti i tuoi animali ora puoi ottenere più prodotti invece di quelli predefiniti, come ad esempio:
+
+MUCCHE => LATTE + LATTE DI BUFALA + LETAME + LIQUAME
+MAIALI => LIQUAME + LETAME
+CAPRE => LATTE DI CAPRA
+PECORE => LANA
+GALLINE => UOVA
+CAVALLI => LETAME
+
+Un esempio dettagliato: se '1' gallina produce '100' uova per ora di gioco 
+e il moltiplicatore è '2', allora quella gallina produrrà '200' uova.
+
+È possibile regolare il moltiplicatore nelle Impostazioni di gioco (premere il tasto ESC) in modo da poter
+aumentare o diminuire il valore a proprio piacimento. (default: 2 - min: 0 - max: 100)
+Se si desidera disattivare un'impostazione, è possibile impostarla sul valore '0'.
+Si noti che se si modifica un'impostazione, è necessario riavviare il gioco per applicare le modifiche apportate.
+per applicare le modifiche apportate alle impostazioni.
+
+westor7 @ Discord o https://github.com/westor7/FS25_BetterHusbandry per qualsiasi suggerimento/problema.
+
+NOTA: Questa mod NON funziona in multiplayer!
+
+- Un ringraziamento particolare a @GMNGjoy (https://github.com/GMNGjoy) per avermi aiutato a creare il codice principale.]]>
+</it>
 	</description>
 
 	<iconFilename>icon_BetterHusbandry.dds</iconFilename>
