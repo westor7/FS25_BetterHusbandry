@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?
+<l10n>
+	<translationContributors>FirenzeIT</translationContributors>
+	<texts>
+		<text name = "bh_setting_title" 			text = "Migliore allevamento - Impostazioni"/>
+
+		<text name = "bh_eggsMultiplier_short" 		text = "Moltiplicatore della produzione di uova"/>
+		<text name = "bh_eggsMultiplier_long" 		text = "Selezionare il numero del moltiplicatore, un numero più alto fa ottenere più uova per animale per ora di gioco, impostare ‘0’ per disabilitare la mod.&#13;&#10;(NOTA: è necessario riavviare il savegame per applicare qualsiasi modifica)"/>.
+
+		<text name = "bh_woolMultiplier_short" 		text = "Moltiplicatore della produzione di lana"/>
+		<text name = "bh_woolMultiplier_long" 		text = "Selezionare il numero del moltiplicatore, un numero più alto fa ottenere più lana per animale per ora di gioco, impostare ‘0’ per disabilitare la mod.&#13;&#10;(NOTA: è necessario riavviare il savegame per applicarlo dopo qualsiasi modifica)"/>.
+
+		<text name = "bh_milkMultiplier_short" 		text = "Moltiplicatore della produzione di latte"/>
+		<text name = "bh_milkMultiplier_long" 		text = "Selezionare il numero del moltiplicatore, un numero più alto fa ottenere più latte per animale per ora di gioco, impostare ‘0’ per disabilitare la mod.&#13;&#10;(NOTA: è necessario riavviare il gioco per applicare qualsiasi modifica)."/>
+
+		<text name = "bh_manureMultiplier_short" 	text = "Moltiplicatore produzione letame"/>
+		<text name = "bh_manureMultiplier_long" 	text = "Selezionare il numero del moltiplicatore, un numero più alto fa ottenere più letame per animale per ora di gioco, impostare ‘0’ per disabilitare la mod.&#13;&#10;(NOTA: è necessario riavviare il savegame per applicarlo dopo qualsiasi modifica)"/>.
+
+		<text name = "bh_slurryMultiplier_short" 	text = "Moltiplicatore produzione liquami"/>
+		<text name = "bh_slurryMultiplier_long" 	text = "Selezionare il numero del moltiplicatore, un numero più alto fa produrre più liquame per animale per ora di gioco, impostare ‘0’ per disabilitare la mod.&#13;&#10;(NOTA: è necessario riavviare il savegame per applicarlo dopo qualsiasi modifica)"/>.
+
+		<text name = "bh_blink_warn" 				text = "Attenzione: Il moltiplicatore di produzione di alcuni animali è stato aggiornato.&#13;&#10;&#13;&#10;&#32;&#32;Devi riavviare il tuo savegame per applicare le modifiche."/>
+	</texts>
+</l10n>
