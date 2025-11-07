@@ -1,11 +1,12 @@
 ---This class allows easier creation of configuration options in the general settings page.
 ---Originally created by Farmsim Tim based on discoveries made by Shad0wlife
 ---Feel free to use this class in your own mods. You may change anything except for the first three lines of this file.
----version 1.2
+---version 1.4
 ---Changelog:
 ---v1.1: Fixed choice controls when using string values
 ---v1.2: Choice controls can now be nillable, too
 ---v1.3: Fix bool elements which can have invalid slider positions
+---v1.4: Added `prefix`argument to the createChoiceElement method (for i18n)
 ---@class UIHelper
 UIHelper = {}
 
@@ -90,8 +91,9 @@ end
 ---@param target                table       @The object which contains the callback func
 ---@param callbackFunc          string      @The name of the function to call when the value changes
 ---@param nillable              string      @If set to true, the first entry will mean the setting has no effect. The text value will be "-".
+---@param prefix 								string @An optional prefix for every control name. This will also be prepended to the i18n keys
 ---@return                      table       @The created object
-function UIHelper.createChoiceElement(generalSettingsPage, id, i18nTextId, i18nValueMap, target, callbackFunc, nillable)
+function UIHelper.createChoiceElement(generalSettingsPage, id, i18nTextId, i18nValueMap, target, callbackFunc, nillable, prefix)
 	local choiceElementBox = createElement(generalSettingsPage, generalSettingsPage.multiVolumeVoiceBox, id, i18nTextId, target, callbackFunc)
 
 	local choiceElement = choiceElementBox.elements[1]
@@ -105,11 +107,11 @@ function UIHelper.createChoiceElement(generalSettingsPage, id, i18nTextId, i18nV
 		if type(valueEntry) == "number" then
 			value = tostring(valueEntry)
 		elseif type(valueEntry) == "string" then
-			value = g_i18n:getText(valueEntry)
+			value = g_i18n:getText(prefix .. valueEntry)
 			choiceElementBox.hasStrings = true
 		else
 			-- legacy syntax
-			value = g_i18n:getText(valueEntry.i18nTextId)
+			value = g_i18n:getText(prefix .. valueEntry.i18nTextId)
 			choiceElementBox.hasStrings = true
 		end
 		table.insert(texts, value)
@@ -193,7 +195,7 @@ function UIHelper.createControlsDynamically(settingsPage, sectionTitle, owningTa
 
 		elseif controlProps.values ~= nil then
 			-- enum control
-			uiControl = UIHelper.createChoiceElement(settingsPage, id, id, controlProps.values, owningTable, callback, controlProps.nillable)
+			uiControl = UIHelper.createChoiceElement(settingsPage, id, id, controlProps.values, owningTable, callback, controlProps.nillable, prefix)
 			uiControl.values = controlProps.values -- for mapping values later on, if necessary
 			uiControl.nillable = controlProps.nillable
 		else
